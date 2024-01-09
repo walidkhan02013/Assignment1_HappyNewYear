@@ -60,9 +60,10 @@ font-style: normal;
 font-weight: 900;
 line-height: 95px; 
 }
-
 .discount{
-position: relative;
-text-align: center;
-align-items:center;
+    position: absolute;
+    margin-left: 140px;
+    align-items: center;
+    text-align: center;
+
 }
