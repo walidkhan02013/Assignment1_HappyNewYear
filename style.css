@@ -104,14 +104,13 @@ margin-bottom: 16px;
   }
 
   .body_party_banner{
-         background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../Assignment1_HappyNewYear/images/Vectorrr.png);
-         height: 600px;
-         
+            background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../Assignment1_HappyNewYear/images/Vectorrr.png);
+            height: 600px;
             text-align: center;
             justify-content: center;
             background-repeat:no-repeat;
             position: relative;
-            bottom: -1000px;
+            bottom: -120px;
             border-radius:16px;
     
     
@@ -120,13 +119,36 @@ margin-bottom: 16px;
 
   .party_banner1 {
 
-    background-color:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);  
-     height: 482px;
-         
+            background :linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);  
+            height: 482px;
             text-align: center;
             justify-content: center;
             background-repeat:no-repeat;
             position: relative;
-            bottom: -1000px;
+            top: 1000px;
+           
             border-radius:16px;
   }
+
+.mark{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+    
+}
+
+.mark_ans{
+color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+  
