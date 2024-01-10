@@ -208,11 +208,13 @@ text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   position: relative;
-  border:10px solid black;
   bottom: -1452px;
+  align-items:center;
+  line-height: 2;
 }
-.coming_left{
+.coming_left {
   text-align: left;
+  padding-right: 70px;
 }
 .coming_highlight{
   color: #F00;
@@ -220,6 +222,7 @@ text-align: center;
 font-family: Inter;
 font-size: 24px;
 font-weight: 500;
+text-transform:uppercase;
 
 }
 .coming_soon_title{
@@ -228,6 +231,7 @@ font-family: Merriweather;
 font-size: 48px;
 font-weight: 900;
 text-transform: capitalize;
+
 }
 
 .coming_description{
@@ -238,10 +242,31 @@ font-weight: 400;
 line-height: 32px;
 }
 .coming_middle > img{
-border-radius: 463px;
-border: 15px solid #F00;
-width: 463px;
-height: 463px;
-flex-shrink: 0;
-padding: 49px;
+  border-radius: 50%;
+  border: 15px solid #F00;
+  width: 463px;
+  height: 463px;
+  margin-right: 118px;
+  padding: 49px;
+}
+
+.year_highlight{
+color: #F00;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.coming_right{
+  line-height: 5;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.year_logo {
+
+  margin-top: 43px;
 }
