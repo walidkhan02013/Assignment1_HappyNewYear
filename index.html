@@ -1,118 +1,101 @@
 <!DOCTYPE html>
-
-<html
- 
-lang="en">
-
+<html lang="en">
 <head>
-
-    
-<meta
- 
-charset="UTF-8">
-
-    
-<meta
- 
-name="viewport"
- 
-content="width=device-width, initial-scale=1.0">
-
-    
-<link
- 
-rel="stylesheet"
- 
-href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Happy New Year</title>
 </head>
 <body>
-
     <main>
+      <div id="container" class="container">
         <header class="header">
-            <div class="hero-section">
-                <div class="hero-image">
-                    <img src="../Assignment1_HappyNewYear/images/New Year Photo.png" alt="new year banner">
-                </div>
-                <div class="hero-text">
-                    <h1>Happy New Year</h1>
-                    <p>New Year Party Celebration</p>
-                </div>
-            </div>
+            <!-- This is the discount and banner section -->
+          <div class="quotes">
+            <span class="banner__main_quote">Happy New Year</span><br>
+            <span class="banner_alt_quote">New Year Party Celebration</span>
+          </div>
         </header>
-
-        <section class="discount-section">
-            <h2>Holiday Deals</h2>
-            <div class="discount-container">
-                <div class="discount-tile">
-                    <h3>65% OFF</h3>
-                    <p>Our Holiday Deals are Better</p>
-                    <a href="#">Shop Now</a>
+  
+        <div id="discount">
+          <p>65% OFF</p>
+          <h3>OUR HOLIDAY DEALS ARE BETTER</h3>
+          <h2>ALL CATEGORIES</h2>
+          <img src=".//images/New Year Photo.png" alt="new year body image">
+        </div>
+            <!-- This is the party Section -->
+        <div class="body_party">
+          <div class="party_banner1">
+                <div class="party_banner_left">
+                    <span class="welcome_note">Welcome to midnight party</span> <br>
+                    <span class="welcome_description">Dive into a world of endless fun and revelry at our midnight party, where the night is young and the festivities never end!</span><br>
+                    <span class="welcome_join">Join Now</span>
                 </div>
-
-                <div class="discount-tile">
-                    <img src="../Assignment1_HappyNewYear/images/Group_75-removebg-preview.png" alt="gift box">
-                    <p>Shop All Categories</p>
+                <div class="party_banner_right">
+                    <img src=".//images/Group 70.png" alt="2024">
                 </div>
+          </div>
+
+  
+          <div class="party_banner2">
+            <span class="mark">Place:</span><span class="mark_ans"> Park Hotel</span><br>
+            <span class="mark">Date:</span><span class="mark_ans"> 31 December Night 2023</span><br>
+            <span class="mark">Time:</span><span class="mark_ans"> Evening 7.30 pm to 12.30 am</span>
+            <button class="join_btn" type="submit" form="form1" value="Submit">Join Now</button>
+          </div>
+        </div>
+        <!-- This is the Coming soon section -->
+
+        <div class="coming_soon_section">
+            <div class="coming_left">
+              <span class="coming_highlight">New Best offer</span> <br>
+              <span class="coming_soon_title">Coming Soon</span><br>
+              <span class="coming_description">Join us as we transform into a  vibrant spectacle of lights, music, and electrifying rhythms, where the night sky comes alive with the promise of new beginnings</span>
+              
             </div>
-        </section>
-
-        <section class="party-section">
-            <h2>Midnight Party</h2>
-            <div class="party-container">
-                <div class="party-banner">
-                    <div class="party-banner-left">
-                        <h3>Welcome to Midnight Party</h3>
-                        <p>Dive into a world of endless fun and revelry</p>
-                        <a href="#" class="join-btn">Join Now</a>
-                    </div>
-
-                    <div class="party-banner-right">
-                        <img src="../Assignment1_HappyNewYear/images/Group 70.png" alt="2024">
-                    </div>
-                </div>
-
-                <div class="party-details">
-                    <h4>Event Details</h4>
-                    <table>
-                        <tr>
-                            <th>Place</th>
-                            <td>Park Hotel</td>
-                        </tr>
-                        <tr>
-                            <th>Date</th>
-                            <td>December 31st, 2023</td>
-                        </tr>
-                        <tr>
-                            <th>Time</th>
-                            <td>7:30 PM - 12:30 AM</td>
-                        </tr>
-                    </table>
-
-                    <a href="#" class="join-btn">Join Now</a>
-                </div>
+            <div class="coming_middle">
+              <img src="../Assignment1_HappyNewYear/images/Ellipse 1.png" alt="celebration_image">
             </div>
-        </section>
 
-        <section class="upcoming-event-section">
-            <h2>Coming Soon</h2>
-            <div class="upcoming-event-container">
-                <div class="highlight-section">
-                    <h3>New Best offer</h3>
-                    <p>Join us as we transform into a vibrant spectacle of lights, music, and electrifying rhythms, where the night sky comes alive with the promise of new beginnings</p>
-                    <img src="../Assignment1_HappyNewYear/images/Ellipse 1.png" alt="celebration_image">
-                </div>
-
-                <div class="year-section">
-                    <h2>2024</h2>
-                    <img src="../Assignment1_HappyNewYear/images/Group 96.png" alt="year logo">
-                    <p>Embark on a journey of new beginnings and unforgettable experiences with our exciting 2024 events</p>
-                </div>
+            <div class="coming_right">
+              <span class="year_highlight">2024</span> <br>
+              <span class="coming_description">Join us as we transform into a vibrant spectacle of lights, music, and electrifying rhythms, where the night sky comes alive with the promise of new beginnings.</span>
+              <img class="year_logo" src="../Assignment1_HappyNewYear/images/Group 96.png" alt="year logo">
             </div>
-        </section>
+        </div>
+
+
+          <!-- This is the HOLIDAY Sales section -->
+
+            <div class="holiday_sales_section">
+                <span class="holiday_sales__title">WHAT IS FUNCTIONAL</span> <br>
+                <span class="sales_red">Holidays</span><span class="sales_black"> Sales 50%</span> <br>
+                <span class="holiday_sales_description">Join us as we transform into a  vibrant spectacle of lights, music, and electrifying rhythms, where the night sky comes alive with the promise of new beginnings.
+                  Sure, here is a more extended version of the text:
+                  
+                  Embrace the magic of the holiday season with our incredible 50% sale!</span>
+                
+              </div>
+         <!-- This is the HOLIDAY Discount banner section -->
+
+         <div class="discount_banner">
+          <div class="discount_banner_top">
+            
+
+          </div>
+
+          <div class="discount_banner_bottom">
+            <img src="../Assignment1_HappyNewYear/images/Group_75-removebg-preview.png" alt="gift box">
+
+          </div>
+         </div>
+         
+
+      </div>
+  
     </main>
-
+  
     <footer>
-    </footer>
-</body>
+      </footer>
+  </body>
 </html>
