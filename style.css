@@ -320,3 +320,24 @@ font-size: 72px;
 font-weight: 900;
 
 }
+
+.discount_banner_bottom{
+ 
+  height: 229px;
+  position: relative;
+  bottom: -1832px;
+  display: flex;
+  align-items: flex-end;
+  background-color:white;
+  background-repeat:no-repeat;
+  background-color:rgba(255, 0, 0, 1);
+
+
+  
+}
+
+.discount_banner_bottom > img{
+  height: 550px;
+  width: 700px;
+
+}
