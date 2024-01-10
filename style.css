@@ -246,7 +246,7 @@ line-height: 32px;
   border: 15px solid #F00;
   width: 463px;
   height: 463px;
-  margin-right: 118px;
+  margin-right: 65px;
   padding: 49px;
 }
 
@@ -269,4 +269,54 @@ line-height: normal;
 .year_logo {
 
   margin-top: 43px;
+}
+
+.holiday_sales_section{
+
+  position: relative;
+  bottom: -1692px;
+  line-height: 2;
+  text-align: center;
+  align-items:center;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the element horizontally */
+  width: 650px;  
+
+}
+
+.holiday_sales__title{
+  color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+
+}
+
+.holiday_sales_description{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; 
+}
+
+.sales_red{
+color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+
+}
+
+.sales_black{
+color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+
 }
