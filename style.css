@@ -382,6 +382,13 @@ bottom: -1610px;
 }
 .products_image> img{
   margin: 6px;
+  transition: 1s ease;
+}
+.products_image > img:hover{
+-webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+transform: rotateZ(-10deg);
+transition: 1s ease;
 }
 
 .newsletter_section{
@@ -444,5 +451,96 @@ border-radius: 0px 50px 50px 0px;
 background: #F00;
 border:0;
 margin: 0;
+
+}
+
+.footer_section{
+
+height: 609px;
+background: #070211;
+position: relative;
+bottom:-1800px;
+
+}
+
+.footer_top_left{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+position: relative;
+left: 9%;
+top: 120px;
+
+}
+.footer_top_right{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+text-align: right;
+position: absolute;
+right: 9%;
+top: 120px;
+}
+
+hr {
+width: 1320px;
+height: 1px;
+background: rgba(255, 255, 255, 0.1);
+opacity: .2;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.social_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_media_section{
+  position: relative;
+  top: 160px;
+}
+.social_icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 25px;
+  
+
+}
+
+.social_icon a img {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+  
+}
+
+.copyright_section{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+position: relative;
+display: flex;
+justify-content: space-around;
+bottom: -300px;
+
+ 
+
+
+}
+
+.copyright_section a{
+  text-decoration: none;
+  color: #FFF;
+
 
 }
