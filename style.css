@@ -371,6 +371,7 @@ bottom: -1610px;
 .portfolio_section{
   position: relative;
   bottom: -1452px;
+  margin-top: 120px;
   align-items:center;
   line-height: 2;
   width: 900px;
