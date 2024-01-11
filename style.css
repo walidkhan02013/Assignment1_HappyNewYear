@@ -368,3 +368,10 @@ bottom: -1610px;
   bottom: 115px;
   right: 56px;
 }
+.portfolio_section{
+  position: relative;
+  bottom: -1452px;
+  align-items:center;
+  line-height: 2;
+  width: 900px;
+}
