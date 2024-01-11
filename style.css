@@ -375,3 +375,11 @@ bottom: -1610px;
   line-height: 2;
   width: 900px;
 }
+.products_image{
+ position: relative;
+ top:1600px;
+
+}
+.products_image> img{
+  margin: 6px;
+}
