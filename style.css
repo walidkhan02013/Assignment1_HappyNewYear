@@ -325,7 +325,7 @@ font-weight: 900;
  
   height: 229px;
   position: relative;
-  bottom: -1832px;
+  bottom: -1420px;
   display: flex;
   align-items: flex-end;
   background-color:white;
@@ -336,8 +336,35 @@ font-weight: 900;
   
 }
 
-.discount_banner_bottom > img{
-  height: 550px;
-  width: 700px;
+.gift-box{
+    height: 580px;
+    width: 750px;
+    position: relative;
+    z-index: 1;
+    left: 138px;
+    top: 14px;
 
+}
+
+.discount_banner_top{
+
+display: flex;
+justify-content: center;
+position: relative;
+align-items: center;
+flex-wrap: nowrap;
+bottom: -1610px;
+
+}
+.discount_banner_top> .percentage_banner{
+  position: relative;
+  left: 125px;
+  z-index: 1;
+  bottom: 100px;
+}
+
+.giftbox_girl{
+  position: relative;
+  bottom: 115px;
+  right: 56px;
 }
