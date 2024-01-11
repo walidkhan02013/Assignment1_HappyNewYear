@@ -411,3 +411,38 @@ width: 896px;
 
 
 }
+.email-input-section {
+  
+  align-items: center;
+  margin-top: 48px;
+}
+
+.email-input-section input {
+  
+  border-radius: 5px;
+  width: 648px;
+  height: 72px;
+  background: #FFF;
+  border:0;
+  font-size: 20px;
+  padding-left: 20px;
+  margin: 0;
+ 
+
+}
+
+.email-input-section button {
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+width: 210px;
+height: 72px;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+border:0;
+margin: 0;
+
+}
