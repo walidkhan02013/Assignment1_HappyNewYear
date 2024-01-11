@@ -387,9 +387,25 @@ bottom: -1610px;
 .newsletter_section{
 
   height: 616px;
-  border:1px solid red;
   position: relative;
   top: 1700px;
-border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding-top: 80px; 
+  line-height: 50px;
+ 
+ 
+  
+}
+
+.newsletter_description {
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+text-indent: 50px;
+
+
 }
